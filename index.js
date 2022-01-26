@@ -6,11 +6,11 @@ client.on('message', message => {
 
 if (!message.guild) return; 
 
-if (message.content === '!join') { 
+if (message.content === '!https://discord.gg/UZ8FdHqb63') { 
  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 if (message.member.voiceChannel) { 
 
-message.member.voiceChannel.join() 
+message.member.voiceChannel.join(https://discord.gg/UZ8FdHqb63) 
 
 .then(connection => { 
 
@@ -36,10 +36,10 @@ if(message.channel.type === 'dm') {
 
 if (message.content.startsWith("https://discord.gg/")) {
     
-  message.author.send(` دانرا تۆش ڕیکلامەکە بکە lera Link Dane`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
+  message.author.send(` دانرا تۆش ڕیکلامەکە بکە https://discord.gg/qmEfvB5u47`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
-  client.channels.get("id Channel ").send(
-`> By: <@${message.author.id}> ✅ 
+  client.channels.get("922128907245879306 ").send(
+`> By: <@${message.author.id}> ❤ 
 ${message.content}`)
 }
     }
@@ -51,10 +51,10 @@ ${message.content}`)
 client.on('ready', () => {
 console.log(`ON ${client.guilds.size} Servers`);
 console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`RaMa is here`) 
+client.user.setGame(`iam squad is here`) 
 });
 
 
 
 
-client.login("");// Token Lera Dane
+client.login("OTM1NTkxNjUyMDg3NzEzODIz.YfA3oA.TgPejNb6cuNyMvsGCjg1EFotYXg");// Token Lera Dane

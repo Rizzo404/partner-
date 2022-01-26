@@ -10,7 +10,7 @@ if (message.content === '!join') {
  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 if (message.member.voiceChannel) { 
 
-message.member.voiceChannel.join() 
+message.member.voiceChannel.join(https://discord.gg/b57qSvmT3Q) 
 
 .then(connection => { 
 
